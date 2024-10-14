@@ -32,7 +32,14 @@ So if you're interested what it means, you can read here
 * One column is a linear combination of others when you can express one column of a matrix as a sum of others columns
 * The simplest example is when a column is an exact duplicate of another column
 * Another example. Let's say we have 3 columns: `a`, `b`, `c`. If `c = 0.2 * a + 0.5 * b`, then `c` is a linear combination of `a` and `b`
+<<<<<<< HEAD
 * More formal definition: <https://en.wikipedia.org/wiki/Linear_combination>
+=======
+* More formal definition: https://en.wikipedia.org/wiki/Linear_combination
+
+### Ridge Regression
+The regularization technique used (adding a factor to the diagonals of Gram Matrix) in this lesson is Ridge Regression. Further explanations are available in this [DataTalks.Club article](https://datatalks.club/blog/regularization-in-regression.html).
+>>>>>>> e7fe9ce1604768e6c6c62011fc90f8072dadc6da
 
 ## Navigation
 
