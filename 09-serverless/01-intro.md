@@ -11,17 +11,10 @@ in 2024.
 
 Add notes from the video (PRs are welcome)
 
-* introduction to the topic of the week: deploying a deep learning model to the cloud, aws lambda and tensorflow lite
+* Introduction to the topic of the week: deploying a deep learning model to the cloud, aws lambda and tensorflow lite
 
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
+|⚠️|The notes are written by the community.<br>If you see an error here, please create a PR with a fix.|
+|---|:-:|
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/11/30/ml-zoomcamp-2023-serverless-part-1/)
 
