@@ -18,8 +18,8 @@ To deploy the model in a server there are some steps:
 
 Add notes from the video (PRs are welcome)
 
-| ⚠️  | The notes are written by the community.<br>If you see an error here, please create a PR with a fix. |
-| --- | --------------------------------------------------------------------------------------------------- |
+|⚠️|The notes are written by the community.<br>If you see an error here, please create a PR with a fix.|
+|---|---|
 
 - [Notes from Peter Ernicke](https://knowmledge.com/2023/10/09/ml-zoomcamp-2023-deploying-machine-learning-models-part-1/)
 
