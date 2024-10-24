@@ -1,11 +1,10 @@
-## Homework
+# Homework
 
-> Note: sometimes your answer doesn't match one of the options exactly. 
-> That's fine. 
+> Note: sometimes your answer doesn't match one of the options exactly.
+> That's fine.
 > Select the option that's closest to your solution.
 
-
-### Dataset
+## Dataset
 
 In this homework, we will use the Bank Marketing dataset. Download it from [here](https://archive.ics.uci.edu/static/public/222/bank+marketing.zip).
 
@@ -17,7 +16,7 @@ wget https://archive.ics.uci.edu/static/public/222/bank+marketing.zip
 
 We need to take `bank/bank-full.csv` file from the downloaded zip-file. Please use semicolon as a separator in the `read_csv` function.
 
-In this dataset our desired target for classification task will be `y` variable - has the client subscribed a term deposit or not. 
+In this dataset our desired target for classification task will be `y` variable - has the client subscribed a term deposit or not.
 
 ### Features
 
@@ -48,24 +47,22 @@ For the rest of the homework, you'll need to use only these columns:
 
 What is the most frequent observation (mode) for the column `education`?
 
-- `unknown`
-- `primary`
-- `secondary`
-- `tertiary`
-
+* `unknown`
+* `primary`
+* `secondary`
+* `tertiary`
 
 ### Question 2
 
-Create the [correlation matrix](https://www.google.com/search?q=correlation+matrix) for the numerical features of your dataset. 
+Create the [correlation matrix](https://www.google.com/search?q=correlation+matrix) for the numerical features of your dataset.
 In a correlation matrix, you compute the correlation coefficient between every pair of features.
 
 What are the two features that have the biggest correlation?
 
-- `age` and `balance`
-- `day` and `campaign`
-- `day` and `pdays`
-- `pdays` and `previous`
-
+* `age` and `balance`
+* `day` and `campaign`
+* `day` and `pdays`
+* `pdays` and `previous`
 
 ### Target encoding
 
@@ -84,43 +81,41 @@ What are the two features that have the biggest correlation?
 * Round the scores to 2 decimals using `round(score, 2)`.
 
 Which of these variables has the biggest mutual information score?
-  
-- `contact`
-- `education`
-- `housing`
-- `poutcome`
 
+* `contact`
+* `education`
+* `housing`
+* `poutcome`
 
 ### Question 4
 
 * Now let's train a logistic regression.
 * Remember that we have several categorical variables in the dataset. Include them using one-hot encoding.
 * Fit the model on the training dataset.
-    - To make sure the results are reproducible across different versions of Scikit-Learn, fit the model with these parameters:
-    - `model = LogisticRegression(solver='liblinear', C=1.0, max_iter=1000, random_state=42)`
+  * To make sure the results are reproducible across different versions of Scikit-Learn, fit the model with these parameters:
+  * `model = LogisticRegression(solver='liblinear', C=1.0, max_iter=1000, random_state=42)`
 * Calculate the accuracy on the validation dataset and round it to 2 decimal digits.
 
 What accuracy did you get?
 
-- 0.6
-- 0.7
-- 0.8
-- 0.9
+* 0.6
+* 0.7
+* 0.8
+* 0.9
 
-
-### Question 5 
+### Question 5
 
 * Let's find the least useful feature using the *feature elimination* technique.
 * Train a model using the same features and parameters as in Q4 (without rounding).
 * Now exclude each feature from this set and train a model without it. Record the accuracy for each model.
-* For each feature, calculate the difference between the original accuracy and the accuracy without the feature. 
+* For each feature, calculate the difference between the original accuracy and the accuracy without the feature.
 
 Which of following feature has the smallest difference?
 
-- `age`
-- `balance`
-- `marital`
-- `previous`
+* `age`
+* `balance`
+* `marital`
+* `previous`
 
 > **Note**: The difference doesn't have to be positive.
 
@@ -134,15 +129,15 @@ Which of following feature has the smallest difference?
 
 Which of these `C` leads to the best accuracy on the validation set?
 
-- 0.01
-- 0.1
-- 1
-- 10
-- 100
+* 0.01
+* 0.1
+* 1
+* 10
+* 100
 
 > **Note**: If there are multiple options, select the smallest `C`.
 
 ## Submit the results
 
-* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw03
+* Submit your results here: <https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw03>
 * If your answer doesn't match options exactly, select the closest one

@@ -1,11 +1,13 @@
-## 6.6 Ensemble learning and random forest
+# 6.6 Ensemble learning and random forest
 
+<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD045 -->
 <a href="https://www.youtube.com/watch?v=FZhcmOfNNZE&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-6-06.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning)
 
-
 ## Notes
+
 **Ensemble learning** is a machine learning paradigm where multiple models, often referred to as 'weak learners', are strategically combined to solve a particular computational intelligence problem. This approach frequently yields superior predictive performance compared to using a single model.
 
 **Random Forest** is an example of ensemble learning where each model is a decision tree and their predictions are aggregated to identify the most popular result. Random forest only selects a random subset of features from the original data to make predictions. The 'randomness' in Random Forest stems from two key aspects: 
@@ -35,21 +37,14 @@ In random forests, the decision trees are trained independently to each other.
 
 Add notes from the video (PRs are welcome)
 
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
+|⚠️|The notes are written by the community.<br>If you see an error here, please create a PR with a fix.|
+|---|:-:|
 
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/24/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-9/)
+- [Notes from Peter Ernicke](https://knowmledge.com/2023/10/24/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-9/)
 
 ## Navigation
 
-* [Machine Learning Zoomcamp course](../)
-* [Session 6: Decision Trees and Ensemble Learning](./)
-* Previous: [Decision trees parameter tuning](05-decision-tree-tuning.md)
-* Next: [Gradient boosting and XGBoost](07-boosting.md)
+- [Machine Learning Zoomcamp course](../)
+- [Session 6: Decision Trees and Ensemble Learning](./)
+- Previous: [Decision trees parameter tuning](05-decision-tree-tuning.md)
+- Next: [Gradient boosting and XGBoost](07-boosting.md)
