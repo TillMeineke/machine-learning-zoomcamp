@@ -1,10 +1,9 @@
 
-## 2.12 Categorical variables
+# 2.12 Categorical variables
 
 <a href="https://www.youtube.com/watch?v=sGLAToAAMa4&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=23"><img src="images/thumbnail-2-12.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
-
 
 ## Notes
 
@@ -12,25 +11,17 @@ Categorical variables are typically represented as strings, and pandas identifie
 models can interpret only numerical features. It is possible to incorporate certain categories from a feature, not necessarily all of them. 
 This transformation from categorical to numerical variables is known as One-Hot encoding. 
 
-The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb). 
+The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb).
 
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
+|⚠️|The notes are written by the community.<br>If you see an error here, please create a PR with a fix.|
+|---|:-:|
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/23/ml-zoomcamp-2023-machine-learning-for-regression-part-10/)
 
 ## Comments
 
 This way of encoding categorical features is called "one-hot encoding".
-We'll learn more about it in Session 3. 
-
+We'll learn more about it in Session 3.
 
 ## Navigation
 
