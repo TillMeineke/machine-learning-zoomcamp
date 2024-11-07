@@ -14,6 +14,10 @@
 
 * [Module materials](../../01-intro)
 * [Homework](01-intro/homework.md)
+<<<<<<< HEAD
+=======
+* [Homework solution](01-intro/homework_1.ipynb)
+>>>>>>> 6d6bb1c (Improve formatting and structure in README for Machine Learning Zoomcamp 2024)
 
 [**2. Machine Learning for Regression**](02-regression/)
 
@@ -53,7 +57,12 @@
 * [Homework](08-deep-learning/homework.md)
 * [Homework solution](08-deep-learning/homework_8.ipynb)
 * Saturn Cloud
+<<<<<<< HEAD
   * Sign up link: <https://zoomcamp.internal.saturnenterprise.io/>
+=======
+  * Sign up link: https://bit.ly/saturn-mlzoomcamp
+  * Write in the chat "I’m participating in ML Zoomcamp" to get 150 hours of compute
+>>>>>>> 6d6bb1c (Improve formatting and structure in README for Machine Learning Zoomcamp 2024)
 
 [**9. Serverless Deep Learning**](09-serverless/)
 
@@ -65,7 +74,11 @@
 * [Module materials](../../10-kubernetes)
 * [Homework](10-kubernetes/homework.md)
 
+<<<<<<< HEAD
 **11. KServe (optional)**
+=======
+[**11. KServe (optional)**](11-kserve/)
+>>>>>>> 6d6bb1c (Improve formatting and structure in README for Machine Learning Zoomcamp 2024)
 
 * [Module materials](../../11-kserve)
 * No homework
@@ -82,4 +95,10 @@
 
 * More information: [article.md](article.md)
 
+<<<<<<< HEAD
 [**Competition**](https://www.kaggle.com/competitions/ml-zoomcamp-2024-competition/)
+=======
+**Competition**
+
+TBA
+>>>>>>> 6d6bb1c (Improve formatting and structure in README for Machine Learning Zoomcamp 2024)
