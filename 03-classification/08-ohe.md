@@ -1,4 +1,5 @@
-# 3.8 One-hot encoding
+
+## 3.8 One-hot encoding
 
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD045 -->
@@ -8,9 +9,9 @@
 
 ## Notes
 
-One-Hot Encoding allows encoding categorical variables in numerical ones. This method represents each category of a variable as one column, and a 1 is assigned if the value belongs to the category or 0 otherwise.
+One-Hot Encoding allows encoding categorical variables in numerical ones. This method represents each category of a variable as one column, and a 1 is assigned if the value belongs to the category or 0 otherwise. 
 
-**Classes, functions, and methods:**
+**Classes, functions, and methods:** 
 
 ```python
 df[x].to_dict(oriented='records') # convert x series to dictionaries, oriented by rows.
@@ -22,8 +23,15 @@ DictVectorizer().get_feature_names() # returns the names of the columns in the s
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-03-churn-prediction/03-churn.ipynb).
 
-|⚠️|The notes are written by the community.<br>If you see an error here, please create a PR with a fix.|
-|---|:-:|
+<table>
+   <tr>
+      <td>⚠️</td>
+      <td>
+         The notes are written by the community. <br>
+         If you see an error here, please create a PR with a fix.
+      </td>
+   </tr>
+</table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/29/ml-zoomcamp-2023-machine-learning-for-classification-part-8/)
 

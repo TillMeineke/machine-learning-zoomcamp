@@ -13,7 +13,11 @@
 To save the model we made before there is an option using the pickle library:
 
 - First install the library with the command ```pip install pickle-mixin``` if you don't have it.
+<<<<<<< HEAD
 - After training the model and making it ready for the prediction process, use this code to save the model for later.
+=======
+- After training the model and makeing it ready for the prediction process, use this code to save the model for later.
+>>>>>>> 3387f3e (Patch 4 (#12))
 
 ```python
 import pickle
@@ -22,7 +26,11 @@ with open('model.bin', 'wb') as f_out: # 'wb' means write-binary
    pickle.dump((dict_vectorizer, model), f_out)
 ```
 
+<<<<<<< HEAD
 - In the code above we'll make a binary file named `model.bin`, and write the dict_vectorizer for one hot encoding and the model as array in it. (We will save it as binary in case it wouldn't be readable by humans)
+=======
+- In the code above we'll make a binary file named `model.bin` and writing the dict_vectorizer for one hot encoding and model as array in it. (We will save it as binary in case it wouldn't be readable by humans)
+>>>>>>> 3387f3e (Patch 4 (#12))
 - To be able to use the model in future without running the code, We need to open the binary file we saved before.
 
 ```python

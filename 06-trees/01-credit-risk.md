@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 # 6.1 Credit risk scoring project
+=======
+
+## 6.1 Credit risk scoring project
+>>>>>>> 3387f3e (Patch 4 (#12))
 
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD045 -->
@@ -19,10 +24,18 @@ In the credit scoring classification problem,
 
 Add notes from the video (PRs are welcome)
 
-|⚠️|The notes are written by the community.<br>If you see an error here, please create a PR with a fix.|
-|---|:-:|
 
-- [Notes from Peter Ernicke](https://knowmledge.com/2023/10/16/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-1/)
+<table>
+   <tr>
+      <td>⚠️</td>
+      <td>
+         The notes are written by the community. <br>
+         If you see an error here, please create a PR with a fix.
+      </td>
+   </tr>
+</table>
+
+* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/16/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-1/)
 
 ## Navigation
 

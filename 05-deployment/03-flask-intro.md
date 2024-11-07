@@ -1,4 +1,5 @@
-# 5.3 Web services: introduction to Flask
+
+## 5.3 Web services: introduction to Flask
 
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD045 -->
@@ -13,7 +14,6 @@
 * [route decorator](https://flask.palletsprojects.com/en/2.2.x/api/#flask.Flask.route)
 
 ## Notes
-
 In this session we talked about what is a web service and how to create a simple web service.
 
 ### What is actually a web service

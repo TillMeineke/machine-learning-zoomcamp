@@ -1,4 +1,5 @@
-# 2.12 Categorical variables
+
+## 2.12 Categorical variables
 
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD045 -->
@@ -6,16 +7,31 @@
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
 
+
 ## Notes
 
+Categorical variables are typically represented as strings, and pandas identifies them as object types. However, some variables that appear to be numerical may actually be categorical (e.g., the number of doors a car has). All these categorical variables need to be converted to a numerical form because ML
+models can interpret only numerical features. It is possible to incorporate certain categories from a feature, not necessarily all of them. 
+This transformation from categorical to numerical variables is known as One-Hot encoding. 
 Categorical variables are typically represented as strings, and pandas identifies them as object types. However, some variables that appear to be numerical may actually be categorical (e.g., the number of doors a car has). All these categorical variables need to be converted to a numerical form because ML models can interpret only numerical features. It is possible to incorporate certain categories from a feature, not necessarily all of them.
 
 This transformation from categorical to numerical variables is known as One-Hot encoding.
 
+<<<<<<< HEAD
 The entire code of this project is available in [this jupyter notebook](./notebook.ipynb).
+=======
+The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb). 
+>>>>>>> 3387f3e (Patch 4 (#12))
 
-|⚠️|The notes are written by the community.<br>If you see an error here, please create a PR with a fix.|
-|---|:-:|
+<table>
+   <tr>
+      <td>⚠️</td>
+      <td>
+         The notes are written by the community. <br>
+         If you see an error here, please create a PR with a fix.
+      </td>
+   </tr>
+</table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/23/ml-zoomcamp-2023-machine-learning-for-regression-part-10/)
 

@@ -1,4 +1,4 @@
-# 5.6 Environment management: Docker
+## 5.6 Environment management: Docker
 
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD045 -->
@@ -12,7 +12,7 @@ To isolate more our project file from our system machine, there is an option nam
 
 To get started with Docker for the churn prediction project you can follow the instructions below.
 
-### Ubuntu
+### Ubuntu 
 
 ```bash
 sudo apt-get install docker.io
@@ -29,6 +29,7 @@ If you are using a subsystem, and the integration fails when running Docker for 
 ### MacOS
 
 Follow the steps in the [Docker docs](https://docs.docker.com/desktop/install/mac-install/).
+
 
 ## Notes
 

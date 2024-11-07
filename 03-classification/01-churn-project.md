@@ -11,6 +11,10 @@
 The project aims to identify customers that are likely to churn or stop using a service. Each customer has a score associated with the probability of churning. Considering this data, the company would send an email with discounts or other promotions to avoid churning.
 
 The ML strategy applied to approach this problem is binary classification, which for one instance ($i^{th}$ customer), can be expressed as:
+<<<<<<< HEAD
+=======
+The ML strategy applied to approach this problem is binary classification, which for one instance can be expressed as:
+>>>>>>> 3387f3e (Patch 4 (#12))
 
 $$\large g\left(x_{i}\right) = y_{i}$$
 

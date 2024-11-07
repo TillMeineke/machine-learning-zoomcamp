@@ -27,7 +27,10 @@ Check them out:
 * [ML Zoomcamp 2023 Office Hours (pre-midterm)](https://www.youtube.com/live/GuJkBzyGxyc)
 * [ML Zoomcamp 2022 - Office Hours (midterm project)](https://www.youtube.com/live/AcB-Iz8h5tc)
 * [2021 Office hours #7](https://www.youtube.com/live/wWBm6MHu5u8) and [2021 Office hours #8](https://www.youtube.com/live/3bo7I9LaN7o) (check #8 if you want to use text)
+<<<<<<< HEAD
 * [Submit and evaluate Zoomcamp projects 🎥](https://www.loom.com/share/4f5c155c550e48ddb54b71ba76516b04)
+=======
+>>>>>>> 3387f3e (Patch 4 (#12))
 
 ## Deliverables
 
