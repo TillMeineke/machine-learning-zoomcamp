@@ -1,4 +1,4 @@
-# 5.8 Summary
+## 5.8 Summary
 
 <a href="https://www.youtube.com/watch?v=sSAqYSk7Br4&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-08.jpg"></a>
 
@@ -12,7 +12,7 @@ In this chapter we learned this topics:
 - How to deploy the model in a web service.
 - How to create a virtual environment.
 - How to create a container and run our code in any operating systems.
-- How to implement our code in a public web service and aceess it from outside a local computer.
+- How to deploy our code in a public web service and access it externally from outside a local computer.
 
 In the next chapter we would learn the algorithms such as Decision trees, Random forests and Gradient boosting as an alternative way of combining decision tress.
 

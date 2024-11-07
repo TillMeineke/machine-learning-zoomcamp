@@ -27,8 +27,15 @@ The entire code of this project is available in [this jupyter notebook](https://
 
 Add notes from the video (PRs are welcome)
 
-|⚠️|The notes are written by the community.<br>If you see an error here, please create a PR with a fix.|
-|---|:-:|
+<table>
+   <tr>
+      <td>⚠️</td>
+      <td>
+         The notes are written by the community. <br>
+         If you see an error here, please create a PR with a fix.
+      </td>
+   </tr>
+</table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/07/ml-zoomcamp-2023-evaluation-metrics-for-classification-part-6/)
 

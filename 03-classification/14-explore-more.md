@@ -1,4 +1,5 @@
-# 3.14 Explore more
+
+## 3.14 Explore more
 
 More things
 
@@ -13,8 +14,9 @@ Use scikit-learn in project of last week
 
 Other projects
 
-* Lead scoring - <https://www.kaggle.com/ashydv/leads-dataset>
-* Default prediction - <https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients>
+* Lead scoring - https://www.kaggle.com/ashydv/leads-dataset
+* Default prediction - https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
+
 
 ## Navigation
 

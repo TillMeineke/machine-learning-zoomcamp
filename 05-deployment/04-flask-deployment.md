@@ -11,29 +11,24 @@ In this session we talked about implementing the functionality of prediction to 
 - To make the web service predict the churn value for each customer we must modify the code in session 3 with the code we had in previous chapters. Below we can see how the code works in order to predict the churn value.
 - In order to predict we need to first load the previous saved model and use a prediction function in a special route.
   - To load the previous saved model we use the code below:
-
-```python
-import pickle
-
-with open('churn-model.bin', 'rb') as f_in:
-  dv, model = pickle.load(f_in)
-```
-
-- As we had earlier to predict a value for a customer we need a function like below:
-
-```python
-def predict_single(customer, dv, model):
-  X = dv.transform([customer])  ## apply the one-hot encoding feature to the customer data
-  y_pred = model.predict_proba(X)[:, 1]
-  return y_pred[0]
-```
-
-- Then at last we make the final function used for creating the web service.
-
-```python
-@app.route('/predict', methods=['POST'])  ## in order to send the customer information we need to post its data.
-def predict():
-  customer = request.get_json()  ## web services work best with json frame, So after the user post its data in json format we need to access the body of json.
+  - ```python
+    import pickle
+    
+    with open('churn-model.bin', 'rb') as f_in:
+      dv, model = pickle.load(f_in)
+    ```
+  - As we had earlier to predict a value for a customer we need a function like below:
+  - ```python
+    def predict_single(customer, dv, model):
+      X = dv.transform([customer])  ## apply the one-hot encoding feature to the customer data 
+      y_pred = model.predict_proba(X)[:, 1]
+      return y_pred[0]
+    ```
+   - Then at last we make the final function used for creating the web service.
+   - ```python
+     @app.route('/predict', methods=['POST'])  ## in order to send the customer information we need to post its data.
+     def predict():
+     customer = request.get_json()  ## web services work best with json frame, So after the user post its data in json format we need to access the body of json.
 
   prediction = predict_single(customer, dv, model)
   churn = prediction >= 0.5

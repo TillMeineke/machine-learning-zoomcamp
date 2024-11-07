@@ -1,4 +1,4 @@
-# 4.8 Summary
+## 4.8 Summary
 
 <a href="https://www.youtube.com/watch?v=-v8XEQ2AHvQ&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-4-08.jpg"></a>
 
@@ -6,17 +6,18 @@
 
 ## Notes
 
-General definitions:
+General definitions: 
 
 * **Metric:** A single number that describes the performance of a model
 * **Accuracy:** Fraction of correct answers; sometimes misleading 
+* Precision and recall are less misleading when we have class imbalance
 * Precision and recall are less misleading when we have class imbalance
 * **ROC Curve:** A way to evaluate the performance at all thresholds; okay to use with imbalance
 * **K-Fold CV:** More reliable estimate for performance (mean + std)
 
 In brief, this weeks was about different metrics to evaluate a binary classifier. These measures included accuracy, confusion table, precision, recall, ROC curves (TPR, FRP, random model, and ideal model), and AUC-ROC. Also, we talked about a different way to estimate the performance of the model and make the parameter tuning with cross-validation.
 
-The code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/04-evaluation/notebook.ipynb).
+The code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/04-evaluation/notebook.ipynb).  
 
 Add notes from the video (PRs are welcome)
 

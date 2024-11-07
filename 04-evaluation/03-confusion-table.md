@@ -13,6 +13,8 @@ When comes to a prediction of an LR model, each falls into one of four different
 * Prediction is that the customer WILL churn. This is known as the **Positive class**
   * And Customer actually churned - Known as a **True Positive (TP)**
   * But Customer actually did not churn - Known as a **False Positive (FP)**
+  * And Customer actually churned - Known as a **True Positive (TP)**
+  * But Customer actually did not churn - Known as a **False Positive (FP)**
 * Prediction is that the customer WILL NOT churn' - This is known as the **Negative class**
   * Customer did not churn - **True Negative (TN)**
   * Customer churned - **False Negative (FN)**
