@@ -40,6 +40,8 @@ The regularization technique used (adding a factor to the diagonals of Gram Matr
 ### Ridge Regression
 The regularization technique used (adding a factor to the diagonals of Gram Matrix) in this lesson is Ridge Regression. Further explanations are available in this [DataTalks.Club article](https://datatalks.club/blog/regularization-in-regression.html).
 
+### Ridge Regression
+The regularization technique used (adding a factor to the diagonals of Gram Matrix) in this lesson is Ridge Regression. Further explanations are available in this [DataTalks.Club article](https://datatalks.club/blog/regularization-in-regression.html).
 
 ## Navigation
 

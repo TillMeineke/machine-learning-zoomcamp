@@ -1,10 +1,12 @@
 # 8.1b Setting up the Environment on Saturn Cloud
 
+<!-- markdownlint-disable MD029 -->
+<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD045 -->
 <a href="https://www.youtube.com/watch?v=WZCjsyV8hZE&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-01b.jpg"></a>
 
-* Login link: https://zoomcamp.internal.saturnenterprise.io/
+* Login link: <https://zoomcamp.internal.saturnenterprise.io/>
 * Image: saturn-python-tensorflow (2024.08.01)
-
 
 ## Links
 
@@ -38,11 +40,9 @@ cat ~/.ssh/id_rsa
 
 ![Create Saturn Resource](https://github.com/user-attachments/assets/1e1aad55-0e9b-46a3-922e-bdd291004009)
 
-
 6. when you added a github repo, you need to set your SSH public key. See yellow warning in image below. Click on the link.
 
 ![Needs public key](https://github.com/user-attachments/assets/5d770e99-1299-4e27-ad2d-5ee5014710f2)
-
 
 7. In terminal run:
 
@@ -54,11 +54,9 @@ and copy the key. Set name, paste key in the value field and click `Add`.
 
 ![Add public key](https://github.com/user-attachments/assets/232b9155-79ab-484a-bc00-d8674c0b39e9)
 
-
 You can manage your keys under User (1.), manage <username> (2.), SSH keys (3.)
 
 ![Manage keys](https://github.com/user-attachments/assets/7d16cfdf-b33f-4cb2-a792-e06f7b3baf2f)
-
 
 You will find the configured resource at the bottom of the resources page.
 

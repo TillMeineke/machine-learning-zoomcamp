@@ -119,7 +119,6 @@ Which of following feature has the smallest difference?
 
 > **Note**: The difference doesn't have to be positive.
 
-
 ### Question 6
 
 * Now let's train a regularized logistic regression.
