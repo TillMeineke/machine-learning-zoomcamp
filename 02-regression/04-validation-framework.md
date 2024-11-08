@@ -12,7 +12,7 @@ In general, the dataset is splitted into three parts: training, validation, and 
 
 ```python
 `df.iloc[]` # returns subsets of records of a dataframe, being selected by numerical indices
-`df.reset_index()` # restate the orginal indices
+`df.reset_index()` # restate the original indices
 `del df[col]` # eliminates target variable
 ```
 

@@ -7,7 +7,7 @@
 ## Links
 
 * [0.0.0.0 vs localhost](https://stackoverflow.com/a/20778887/861423)
-* [Top-level script enviroment](https://docs.python.org/3.9/library/__main__.html)
+* [Top-level script environment](https://docs.python.org/3.9/library/__main__.html)
 * [route decorator](https://flask.palletsprojects.com/en/2.2.x/api/#flask.Flask.route)
 
 ## Notes

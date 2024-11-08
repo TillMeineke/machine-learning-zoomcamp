@@ -6,7 +6,7 @@
 
 ## Notes
 
-The project aims to identify customers that are likely to churn or stoping to use a service. Each customer has a score associated with the probability of churning. Considering this data, the company would send an email with discounts or other promotions to avoid churning.
+The project aims to identify customers that are likely to churn or stopping to use a service. Each customer has a score associated with the probability of churning. Considering this data, the company would send an email with discounts or other promotions to avoid churning.
 
 The ML strategy applied to approach this problem is binary classification, which for one instance can be expressed as:
 
