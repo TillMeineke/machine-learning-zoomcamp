@@ -1,4 +1,4 @@
-# 5.6 Environment management: Docker
+## 5.6 Environment management: Docker
 
 <a href="https://www.youtube.com/watch?v=wAtyYZ6zvAs&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-06.jpg"></a>
 
@@ -10,7 +10,7 @@ To isolate more our project file from our system machine, there is an option nam
 
 To get started with Docker for the churn prediction project you can follow the instructions below.
 
-### Ubuntu
+### Ubuntu 
 
 ```bash
 sudo apt-get install docker.io
@@ -25,6 +25,7 @@ To install the Docker you can just follow the instruction by Andrew Lock in this
 ### MacOS
 
 Follow the steps in the [Docker docs](https://docs.docker.com/desktop/install/mac-install/).
+
 
 ## Notes
 

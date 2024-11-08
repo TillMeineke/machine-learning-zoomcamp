@@ -1,4 +1,5 @@
-# 3.10 Training logistic regression with Scikit-Learn
+
+## 3.10 Training logistic regression with Scikit-Learn
 
 <a href="https://www.youtube.com/watch?v=hae_jXe2fN0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-10.jpg"></a>
 
@@ -6,9 +7,9 @@
 
 ## Notes
 
-This video was about training a logistic regression model with Scikit-Learn, applying it to the validation dataset, and calculating its accuracy.
+This video was about training a logistic regression model with Scikit-Learn, applying it to the validation dataset, and calculating its accuracy. 
 
-**Classes, functions, and methods:**
+**Classes, functions, and methods:** 
 
 ```python
 LogisticRegression().fit_transform(x) # Scikit-Learn class for calculating the logistic regression model.
@@ -25,8 +26,15 @@ LogisticRegression().predict_proba[x] # make predictions on the x dataset, and r
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-03-churn-prediction/03-churn.ipynb).
 
-|⚠️|The notes are written by the community.<br>If you see an error here, please create a PR with a fix.|
-|---|:-:|
+<table>
+   <tr>
+      <td>⚠️</td>
+      <td>
+         The notes are written by the community. <br>
+         If you see an error here, please create a PR with a fix.
+      </td>
+   </tr>
+</table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/30/ml-zoomcamp-2023-machine-learning-for-classification-part-10/)
 

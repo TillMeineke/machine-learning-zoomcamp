@@ -1,4 +1,5 @@
-# 3.2 Data preparation
+
+## 3.2 Data preparation
 
 <a href="https://www.youtube.com/watch?v=VSGGU9gYvdg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-02.jpg"></a>
 
@@ -6,9 +7,9 @@
 
 ## Notes
 
-This session covered data obtention and some procedures of data preparation.
+This session covered data obtention and some procedures of data preparation. 
 
-**Commands, functions, and methods:**
+**Commands, functions, and methods:** 
 
 ```python
 !wget # Linux shell command for downloading data
