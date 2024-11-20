@@ -1,4 +1,4 @@
-# 8.1b Setting up the Environment on Saturn Cloud
+## 8.1b Setting up the Environment on Saturn Cloud
 
 <a href="https://www.youtube.com/watch?v=WZCjsyV8hZE&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-01b.jpg"></a>
 
@@ -8,7 +8,7 @@
 
 ## Notes
 
-### Setting up the Environment on Saturn Cloud (update for Nov 2024 / macOS 15.1)
+### (Optional) Create secret key (macOS 15.1)
 
 1. On website click `Secrets` (1.) -> create `new` (2.)![new Secret](./images/01_new_secret.png)
 2. In terminal run:
@@ -51,9 +51,6 @@ You can manage your keys under User (1.), manage <username> (2.), SSH keys (3.)
 ![Manage keys](./images/06_git_ssh_keys.png)
 
 You will find the configured resource at the bottom of the resources page.
-
->[!CAUTION]
->Your ssh keys could have different names, important is that the private key is named `id_rsa` and the public key is named `id_rsa.pub`. Depending on the crypto system you use, the key could be named `id_rsa` or `id_ed25519` or `id_ecdsa` or `id_dsa`. The public key will have the same name with `.pub` at the end. Never share your private key with anyone.
 
 Add notes from the video (PRs are welcome)
 
