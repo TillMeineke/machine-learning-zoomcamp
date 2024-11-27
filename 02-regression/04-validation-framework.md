@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 
 ## 2.4 Setting up the validation framework
+=======
+# 2.4 Setting up the validation framework
+>>>>>>> f933dfa (Refactor documentation for clarity and formatting improvements)
 
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD045 -->
