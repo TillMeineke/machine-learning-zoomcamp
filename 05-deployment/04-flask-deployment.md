@@ -24,7 +24,7 @@ As we had earlier to predict a value for a customer we need a function like belo
 
 ```python
 def predict_single(customer, dv, model):
-  X = dv.transform([customer])  ## apply the one-hot encoding feature to the customer data 
+  X = dv.transform([customer])  ## apply the one-hot encoding feature to the customer data
   y_pred = model.predict_proba(X)[:, 1]
   return y_pred[0]
 ```

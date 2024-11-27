@@ -53,7 +53,7 @@
 * [Module materials](../../08-deep-learning)
 * [Homework](08-deep-learning/homework.md)
 * Saturn Cloud
-  * Sign up link: https://zoomcamp.internal.saturnenterprise.io/
+  * Sign up link: <https://zoomcamp.internal.saturnenterprise.io/>
 
 [**9. Serverless Deep Learning**](09-serverless/)
 
