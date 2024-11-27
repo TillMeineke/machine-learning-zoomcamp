@@ -17,7 +17,6 @@
 ### Setting up the Environment on Saturn Cloud (update for Nov 2024 / macOS 15.1)
 
 1. On website click `Secrets` (1.) -> create `new` (2.)![new Secret](https://github.com/user-attachments/assets/c895d558-b666-4bc7-bf07-ce5a186b4144)
-
 2. In terminal run:
 
 ```bash
@@ -26,7 +25,6 @@ cat ~/.ssh/id_rsa
 
 3. Copy the key and paste it in the secret value field, name it `id_rsa`, add an empty line and a dot `.`, make sure there are no empty characters in the line after `-----END OPENSSH PRIVATE KEY-----`. Click `Add`.
 4. Under resources (1.) select `New Python Server` (2.). ![New resource](https://github.com/user-attachments/assets/4bf0748a-ce66-4b53-a993-165f0d38eee9)
-
 5. Configure the server:
    1. give it a name (1.)
    2. Show advanced settings (2.)

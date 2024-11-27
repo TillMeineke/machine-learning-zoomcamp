@@ -2,11 +2,7 @@
 
 * [Pre-course Q&A session](https://www.youtube.com/watch?v=a7phcSmuNY0)
 * [Launch stream with course overview](https://www.youtube.com/watch?v=8wuR_Oz-to0)
-<<<<<<< HEAD
 * [Course calendar](https://calendar.google.com/calendar/u/0/r?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&pli=1) ([Google calendar syncselect](https://www.google.com/calendar/syncselect) and for Apple Calendar on macOS/iPhone/iPad see this [help](https://support.google.com/calendar/answer/99358?hl=en&co=GENIE.Platform=Desktop))
-=======
-* [Course calendar](https://calendar.google.com/calendar/u/0/r?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&pli=1)([Google calendar syncselect](https://www.google.com/calendar/syncselect) and for Apple Calendar on macOS/iPhone/ipad see this [help](https://support.google.com/calendar/answer/99358?hl=en&co=GENIE.Platform=Desktop))
->>>>>>> 3387f3e (Patch 4 (#12))
 * [Course management platform](https://courses.datatalks.club/ml-zoomcamp-2024/)
 * [FAQ](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8/edit#)
 * [Course Playlist: Only 2023 Live videos & homeworks](https://www.youtube.com/playlist?list=PL3MmuxUbc_hJoui-E7wf2r5wWgET3MMZt)
@@ -18,10 +14,7 @@
 
 * [Module materials](../../01-intro)
 * [Homework](01-intro/homework.md)
-<<<<<<< HEAD
-=======
 * [Homework solution](01-intro/homework_1.ipynb)
->>>>>>> 6d6bb1c (Improve formatting and structure in README for Machine Learning Zoomcamp 2024)
 
 [**2. Machine Learning for Regression**](02-regression/)
 
@@ -61,16 +54,7 @@
 * [Homework](08-deep-learning/homework.md)
 * [Homework solution](08-deep-learning/homework_8.ipynb)
 * Saturn Cloud
-<<<<<<< HEAD
-<<<<<<< HEAD
   * Sign up link: <https://zoomcamp.internal.saturnenterprise.io/>
-=======
-  * Sign up link: https://bit.ly/saturn-mlzoomcamp
-=======
-  * Sign up link: <https://bit.ly/saturn-mlzoomcamp>
->>>>>>> 3387f3e (Patch 4 (#12))
-  * Write in the chat "I’m participating in ML Zoomcamp" to get 150 hours of compute
->>>>>>> 6d6bb1c (Improve formatting and structure in README for Machine Learning Zoomcamp 2024)
 
 [**9. Serverless Deep Learning**](09-serverless/)
 
@@ -82,11 +66,7 @@
 * [Module materials](../../10-kubernetes)
 * [Homework](10-kubernetes/homework.md)
 
-<<<<<<< HEAD
-**11. KServe (optional)**
-=======
 [**11. KServe (optional)**](11-kserve/)
->>>>>>> 6d6bb1c (Improve formatting and structure in README for Machine Learning Zoomcamp 2024)
 
 * [Module materials](../../11-kserve)
 * No homework
@@ -103,10 +83,4 @@
 
 * More information: [article.md](article.md)
 
-<<<<<<< HEAD
 [**Competition**](https://www.kaggle.com/competitions/ml-zoomcamp-2024-competition/)
-=======
-**Competition**
-
-TBA
->>>>>>> 6d6bb1c (Improve formatting and structure in README for Machine Learning Zoomcamp 2024)
