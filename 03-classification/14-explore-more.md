@@ -1,5 +1,5 @@
 
-## 3.14 Explore more
+# 3.14 Explore more
 
 More things
 
@@ -12,12 +12,10 @@ Use scikit-learn in project of last week
 * There are other ways to implement one-hot encoding. E.g. using the `OneHotEncoding` class. Check how to use it [here](notebook-scaling-ohe.ipynb).
 * Sometimes numerical features require scaling, especially for iterative solves like "lbfgs". Check how to use `StandardScaler` for that [here](notebook-scaling-ohe.ipynb).
 
-
 Other projects
 
 * Lead scoring - https://www.kaggle.com/ashydv/leads-dataset
 * Default prediction - https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
-
 
 ## Navigation
 

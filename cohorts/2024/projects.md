@@ -9,7 +9,6 @@ No hashing needed - [new course management system](https://courses.datatalks.clu
 * [Evaluation criteria](https://docs.google.com/spreadsheets/d/e/2PACX-1vQCwqAtkjl07MTW-SxWUK9GUvMQ3Pv_fF8UadcuIYLgHa0PlNu9BRWtfLgivI8xSCncQs82HDwGXSm3/pubhtml)
 * [Video with instructions](https://www.youtube.com/watch?v=jQ4KVYmatBU&t=1m31s)
 
-
 ## Midterm Project
 
 - Project due date: 26 November 2024 (Wednesday), 00:00 CET (Berlin time)
