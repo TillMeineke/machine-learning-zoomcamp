@@ -12,25 +12,31 @@ In this session we talked about implementing the functionality of prediction to 
 
 - To make the web service predict the churn value for each customer we must modify the code in session 3 with the code we had in previous chapters. Below we can see how the code works in order to predict the churn value.
 - In order to predict we need to first load the previous saved model and use a prediction function in a special route.
-  - To load the previous saved model we use the code below:
-  - ```python
-    import pickle
-    
-    with open('churn-model.bin', 'rb') as f_in:
-      dv, model = pickle.load(f_in)
-    ```
-  - As we had earlier to predict a value for a customer we need a function like below:
-  - ```python
-    def predict_single(customer, dv, model):
-      X = dv.transform([customer])  ## apply the one-hot encoding feature to the customer data 
-      y_pred = model.predict_proba(X)[:, 1]
-      return y_pred[0]
-    ```
-   - Then at last we make the final function used for creating the web service.
-   - ```python
-     @app.route('/predict', methods=['POST'])  ## in order to send the customer information we need to post its data.
-     def predict():
-     customer = request.get_json()  ## web services work best with json frame, So after the user post its data in json format we need to access the body of json.
+
+To load the previous saved model we use the code below:
+
+```python
+import pickle
+
+with open('churn-model.bin', 'rb') as f_in:
+  dv, model = pickle.load(f_in)
+```
+
+As we had earlier to predict a value for a customer we need a function like below:
+
+```python
+def predict_single(customer, dv, model):
+  X = dv.transform([customer])  ## apply the one-hot encoding feature to the customer data
+  y_pred = model.predict_proba(X)[:, 1]
+  return y_pred[0]
+```
+
+Then at last we make the final function used for creating the web service.
+
+```python
+@app.route('/predict', methods=['POST'])  ## in order to send the customer information we need to post its data.
+def predict():
+  customer = request.get_json()  ## web services work best with json frame, So after the user post its data in json format we need to access the body of json.
 
   prediction = predict_single(customer, dv, model)
   churn = prediction >= 0.5
@@ -38,7 +44,7 @@ In this session we talked about implementing the functionality of prediction to 
   result = {
     'churn_probability': float(prediction), ## we need to cast numpy float type to python native float type
     'churn': bool(churn),  ## same as the line above, casting the value using bool method
-}
+  }
 
   return jsonify(result)  ## send back the data in json format to the user
 ```
@@ -77,12 +83,14 @@ result = response.json() ## get the server response
 print(result)
 ```
 
-- Until here we saw how we made a simple web server that predicts the churn value for every user. When you run your app you will see a warning that it is not a WGSI server and not suitable for production environmnets. To fix this issue and run this as a production server there are plenty of ways available.
-  - One way to create a WSGI server is to use gunicorn. To install it use the command ```pip install gunicorn```, And to run the WGSI server you can simply run it with the   command ```gunicorn --bind 0.0.0.0:9696 churn:app```. Note that in **churn:app** the name churn is the name we set for our the file containing the code ```app = Flask('churn')```(for example: churn.py), You may need to change it to whatever you named your Flask app file.
-  - Windows users may not be able to use gunicorn library because windows system do not support some dependencies of the library. So to be able to run this on a windows   machine, there is an alternative library waitress and to install it just use the command ```pip install waitress```.
-  - to run the waitress wgsi server use the command ```waitress-serve --listen=0.0.0.0:9696 churn:app```.
-  - To test it just you can run the code above and the results is the same.
-- So until here you were able to make a production server that predict the churn value for new customers. In the next session we can see how to solve library version conflictions in each machine and manage the dependencies for production environments.
+Until here we saw how we made a simple web server that predicts the churn value for every user. When you run your app you will see a warning that it is not a WGSI server and not suitable for production environments. To fix this issue and run this as a production server there are plenty of ways available.
+
+- One way to create a WSGI server is to use gunicorn. To install it use the command `pip install gunicorn`, and to run the WGSI server you can simply run it with the command `gunicorn --bind 0.0.0.0:9696 churn:app`. Note that in **churn:app** the name churn is the name we set for our the file containing the code `app = Flask('churn')` (for example: churn.py), You may need to change it to whatever you named your Flask app file.
+- Windows users may not be able to use gunicorn library because windows system do not support some dependecies of the library. So to be able to run this on a windows   machine, there is an alternative library waitress and to install it just use the command `pip install waitress`.
+- To run the waitress wgsi server use the command ```waitress-serve --listen=0.0.0.0:9696 churn:app```.
+- To test it just you can run the code above and the results is the same.
+
+So until here you were able to make a production server that predict the churn value for new customers. In the next session we can see how to solve library version conflictions in each machine and manage the dependencies for production environments.
 
 Add notes from the video (PRs are welcome)
 
