@@ -1,8 +1,6 @@
-
-## 9.3 TensorFlow Lite
+# 9.3 TensorFlow Lite
 
 <a href="https://www.youtube.com/watch?v=OzZA4mSBE0Q&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-9-03.jpg"></a>
- 
 
 ## Notes
 
