@@ -1,16 +1,10 @@
-
-## 9.4 Preparing the code for Lambda
+# 9.4 Preparing the code for Lambda
 
 <a href="https://www.youtube.com/watch?v=XXBUivsHhec&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-9-04.jpg"></a>
- 
-
-
-
 
 ## Notes
 
 Add notes from the video (PRs are welcome)
-
 
 <table>
    <tr>
