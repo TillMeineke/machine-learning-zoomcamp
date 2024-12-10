@@ -12,8 +12,15 @@ Add notes from the video (PRs are welcome)
 
 * Introduction to the topic of the week: deploying a deep learning model to the cloud, aws lambda and tensorflow lite
 
-|⚠️|The notes are written by the community.<br>If you see an error here, please create a PR with a fix.|
-|---|:-:|
+<table>
+   <tr>
+      <td>⚠️</td>
+      <td>
+         The notes are written by the community. <br>
+         If you see an error here, please create a PR with a fix.
+      </td>
+   </tr>
+</table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/11/30/ml-zoomcamp-2023-serverless-part-1/)
 
