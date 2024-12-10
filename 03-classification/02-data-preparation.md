@@ -9,9 +9,9 @@
 
 ## Notes
 
-This session covered data obtention and some procedures of data preparation. 
+This session covered data obtention and some procedures of data preparation.
 
-**Commands, functions, and methods:** 
+**Commands, functions, and methods:**
 
 ```python
 !wget # Linux shell command for downloading data

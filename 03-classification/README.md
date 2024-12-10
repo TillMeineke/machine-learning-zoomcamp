@@ -1,4 +1,4 @@
-﻿## 3. Machine Learning for Classification
+﻿# 3. Machine Learning for Classification
 
 - 3.1 [Churn prediction project](01-churn-project.md)
 - 3.2 [Data preparation](02-data-preparation.md)

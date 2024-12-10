@@ -1,5 +1,5 @@
 
-## 3.10 Training logistic regression with Scikit-Learn
+# 3.10 Training logistic regression with Scikit-Learn
 
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD045 -->
@@ -9,9 +9,9 @@
 
 ## Notes
 
-This video was about training a logistic regression model with Scikit-Learn, applying it to the validation dataset, and calculating its accuracy. 
+This video was about training a logistic regression model with Scikit-Learn, applying it to the validation dataset, and calculating its accuracy.
 
-**Classes, functions, and methods:** 
+**Classes, functions, and methods:**
 
 ```python
 LogisticRegression().fit_transform(x) # Scikit-Learn class for calculating the logistic regression model.

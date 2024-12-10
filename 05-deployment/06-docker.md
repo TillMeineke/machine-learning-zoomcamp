@@ -1,4 +1,4 @@
-## 5.6 Environment management: Docker
+# 5.6 Environment management: Docker
 
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD045 -->
@@ -8,11 +8,11 @@
 
 ## Installing Docker
 
-To isolate more our project file from our system machine, there is an option named Docker. With Docker you are able to pack all your project in the system that you want and run it in any other machine system. For example if you want Ubuntu 20.4 you can have it in a mac or windows machine or other operating systems.
+To isolate more our project file from our system machine, there is an option named Docker. With Docker you are able to pack all your project is a system that you want and run it in any system machine. For example if you want Ubuntu 20.4 you can have it in a mac or windows machine or other operating systems.
 
 To get started with Docker for the churn prediction project you can follow the instructions below.
 
-### Ubuntu 
+### Ubuntu
 
 ```bash
 sudo apt-get install docker.io
@@ -26,10 +26,26 @@ To install the Docker you can just follow the instruction by Andrew Lock in this
 
 If you are using a subsystem, and the integration fails when running Docker for the first time, make sure your distribution is enabled in the resources settings.
 
-### MacOS
+### macOS
 
 Follow the steps in the [Docker docs](https://docs.docker.com/desktop/install/mac-install/).
 
+- When installing docker with brew, if you want to install [docker desktop](https://www.docker.com/products/docker-desktop/), you need to run the following command:
+
+```bash
+brew install --cask docker
+```
+
+> [!CAUTION]
+> There is a brew install conflict with docker desktop and command line tools. You need to install docker desktop first and then the command line tools. [Issue](https://github.com/Homebrew/brew/issues/16309)
+
+- Then install the following packages:
+
+```bash
+brew install docker docker-compose
+```
+
+Use `--platform linux/amd64`-flag to run and build Linux Docker containers on Apple Silicon (arm64).
 
 ## Notes
 

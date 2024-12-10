@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-
-## 2.4 Setting up the validation framework
-=======
 # 2.4 Setting up the validation framework
->>>>>>> f933dfa (Refactor documentation for clarity and formatting improvements)
 
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD045 -->
@@ -13,14 +8,9 @@
 
 ## Notes
 
-<<<<<<< HEAD
-In general, the dataset is split into three parts: training, validation, and test. For each partition, we need to obtain feature matrices (X) and vectors of targets (y). First, the size of the partitions is calculated. Next, the records are shuffled to ensure that the values in the three partitions contain non-sequential records from the dataset. Finally, the partitions are created using the shuffled indices.
-=======
-In general, the dataset is splitted into three parts: training, validation, and test. For each partition, we need to obtain feature matrices (X) and vectors of targets (y). First, the size of the partitions is calculated. Next, the records are shuffled to ensure that the values in the three partitions contain non-sequential records from the dataset. Finally, the partitions are created using the shuffled indices.
-In general, the dataset is splitted into three parts: training, validation, and test. For each partition, we need to obtain feature matrices (X) and vectors of targets (y). First, the size of the partitions is calculated. Next, the records are shuffled to ensure that the values in the three partitions contain non-sequential records from the dataset. Finally, the partitions are created using the shuffled indices.
->>>>>>> 3387f3e (Patch 4 (#12))
+In general, the dataset is split into three parts: training, validation, and test. For each partition, we need to obtain feature matrices `X` and vectors of targets `y`. First, the size of the partitions is calculated. Next, the records are shuffled to ensure that the values of the three partitions contain non-sequential records from the dataset. Finally, the partitions are created using the shuffled indices.
 
-**Pandas attributes and methods:** 
+**Pandas attributes and methods:**
 
 ```python
 `df.iloc[]` # returns subsets of records of a dataframe, being selected by numerical indices

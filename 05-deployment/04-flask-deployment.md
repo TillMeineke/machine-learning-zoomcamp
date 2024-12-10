@@ -85,12 +85,12 @@ print(result)
 
 Until here we saw how we made a simple web server that predicts the churn value for every user. When you run your app you will see a warning that it is not a WGSI server and not suitable for production environments. To fix this issue and run this as a production server there are plenty of ways available.
 
-- One way to create a WSGI server is to use gunicorn. To install it use the command `pip install gunicorn`, and to run the WGSI server you can simply run it with the command `gunicorn --bind 0.0.0.0:9696 churn:app`. Note that in **churn:app** the name churn is the name we set for our the file containing the code `app = Flask('churn')` (for example: churn.py), You may need to change it to whatever you named your Flask app file.
+- One way to create a WSGI server is to use gunicorn. To install it use the command `pip install gunicorn`, And to run the WGSI server you can simply run it with the   command `gunicorn --bind 0.0.0.0:9696 churn:app`. Note that in __churn:app__ the name churn is the name we set for our the file containing the code `app = Flask('churn')`(for example: churn.py), You may need to change it to whatever you named your Flask app file.
 - Windows users may not be able to use gunicorn library because windows system do not support some dependecies of the library. So to be able to run this on a windows   machine, there is an alternative library waitress and to install it just use the command `pip install waitress`.
-- To run the waitress wgsi server use the command ```waitress-serve --listen=0.0.0.0:9696 churn:app```.
+- To run the waitress wgsi server use the command `waitress-serve --listen=0.0.0.0:9696 churn:app`.
 - To test it just you can run the code above and the results is the same.
 
-So until here you were able to make a production server that predict the churn value for new customers. In the next session we can see how to solve library version conflictions in each machine and manage the dependencies for production environments.
+So until here you were able to make a production server that predict the churn value for new customers. In the next session we can see how to solve library version conflicts in each machine and manage the dependencies for production environments.
 
 Add notes from the video (PRs are welcome)
 

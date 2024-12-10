@@ -1,4 +1,4 @@
-## 6.5 Decision trees parameter tuning
+# 6.5 Decision trees parameter tuning
 
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD045 -->
@@ -8,28 +8,15 @@
 
 ## Notes
 
-<<<<<<< HEAD
 In this lesson, we will discuss about different parameters used to control a Decision Tree (DT). Two of them, `max_depth` and `min_samples_leaf` have a greater importance than the others. We will further see how we first tune `max_depth` parameter and then move to tuning other parameters will help. After that, a dataframe will be created with all possible combinations of `max_depth`, `min_sample_leaf` and the auc score corresponding to them. These results will be visualized using a heatmap by pivoting the dataframe to easily determine the best possible `max_depth` and `min_samples_leaf` combination. Finally, the DT will be retrained using the identified parameter combination. The DT so trained will be viewed as a tree diagram, for visualizing decision rules.
 
-### Steps
+## Steps
 
 * **Fine-Tuning Process:** iterate to find optimal parameter settings.
-  * Start by tuning `max_depth` with various values to determine a subset of optimal
-depths.
-  * Then, using this subset, fine-tune the model further by exploring different
-=======
-In this lesson, we will discuss about different parameters present to control a Decision Tree (DT). Two features, `max_depth` and `min_samples_leaf` have a greater importance than other parameters. We will further see how we first tune `max_depth` parameter and then move to tuning other parameters will help. Finally, a dataframe is created with all possible combinations of `max_depth`, `min_sample_leaf` and the auc score corresponding to them. These results are visualized using a heatmap by pivoting the dataframe to easily determine the best possible `max_depth` and `min_samples_leaf` combination. Finally, the DT is retrained using the identified parameter combination. DT so trained is viewed as a tree diagram.
-In this lesson, we will discuss about different parameters used to control a Decision Tree (DT). Two of them, `max_depth` and `min_samples_leaf` have a greater importance than the others. We will further see how we first tune `max_depth` parameter and then move to tuning other parameters will help. After that, a dataframe will be created with all possible combinations of `max_depth`, `min_sample_leaf` and the auc score corresponding to them. These results will be visualized using a heatmap by pivoting the dataframe to easily determine the best possible `max_depth` and `min_samples_leaf` combination. Finally, the DT will be retrained using the identified parameter combination. The DT so trained will be viewed as a tree diagram, for visualizing decision rules.     
+  * Start by tuning `max_depth` with various values to determine a subset of optimal depths.
+  * Then, using this subset, fine-tune the model further by exploring different `min_samples_leaf` values.
 
-### Steps
-* **Fine-Tuning Process:** iterate to find optimal parameter settings.
-    *   Start by tuning `max_depth` with various values to determine a subset of optimal
-depths.
-    *   Then, using this subset, fine-tune the model further by exploring different
->>>>>>> 3387f3e (Patch 4 (#12))
-`min_samples_leaf` values.
-
-    This method is computationally efficient for **large datasets**, though it may not be optimal for smaller ones.
+This method is computationally efficient for **large datasets**, though it may not be optimal for smaller ones.
 
 * **Heatmaps for Visualization:** Store the scores (e.g., AUC) obtained during tuning in a pivot table, and create a heatmap with `seaborn` to easily identify high score areas, which helps pinpoint the optimal `max_depth` and `min_samples_leaf` combination.
 
@@ -37,29 +24,15 @@ depths.
 
 ### Importance of  `max_depth` and `min_samples_leaf`
 
-<<<<<<< HEAD
 * **Controlling Overfitting:** these parameters play a critical role in preventing overfitting.
   * `max_depth` limits the tree's complexity, preventing it from growing too deep and memorizing the training data.
-  * `min_samples_leaf` ensures that leaf nodes have a sufficient number of samples,
-reducing the chance of creating nodes that are too specific to the training data.
+  * `min_samples_leaf` ensures that leaf nodes have a sufficient number of samples, reducing the chance of creating nodes that are too specific to the training data.
 
 * **Impact on Bias and Variance:** They also affect the model's bias and variance.
   * Increasing `max_depth` and decreasing `min_samples_leaf` can lead to a more complex model with lower bias but higher variance.
   * Decreasing `max_depth` and increasing `min_samples_leaf` results in a simpler model with higher bias but lower variance.
 
-=======
-*   **Controlling Overfitting:** these parameters play a critical role in preventing overfitting.
-    *   `max_depth` limits the tree's complexity, preventing it from growing too deep and memorizing the training data.
-    *   `min_samples_leaf` ensures that leaf nodes have a sufficient number of samples,
-reducing the chance of creating nodes that are too specific to the training data.
-
-*   **Impact on Bias and Variance:** They also affect the model's bias and variance.
-    *   Increasing `max_depth` and decreasing `min_samples_leaf` can lead to a more complex model with lower bias but higher variance.
-    *   Decreasing `max_depth` and increasing `min_samples_leaf` results in a simpler model with higher bias but lower variance.
-      
->>>>>>> 3387f3e (Patch 4 (#12))
-It's then important to find the right balance between `max_depth` and `min_samples_leaf` to achieve optimal model performance.
-This involves a trade-off between bias and variance, and the best values depend on the specific dataset and problem.
+It's then important to find the right balance between `max_depth` and `min_samples_leaf` to achieve optimal model performance. This involves a trade-off between bias and variance, and the best values depend on the specific dataset and problem.
 
 Add notes from the video (PRs are welcome)
 
